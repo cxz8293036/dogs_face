@@ -12,13 +12,12 @@ html,body{
     display: flex;
     flex: 10;
     flex-flow: column;
-    justify-content: space-between;
 }
 header{
     flex: 1;
     justify-content: flex-end;
     .header{
-    height: 10%;
+    height: 100%;
     background: #ff392a;
     display: flex;
     align-items: center;
@@ -40,5 +39,14 @@ header{
 }
 article{
     overflow-y: auto;
+    flex: 9;
 }
-
+.main{
+    .headphoto{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #ffffff;
+        background-image: url(../img/headPic.png) no-repeat;
+    }
+}
