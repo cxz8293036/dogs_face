@@ -1,0 +1,19 @@
+html,body,p,header,article,footer,div,label,span,a,img,ul,li,input,button,section,select,option{
+    padding: 0px /* 0/75 */;
+    margin: 0px /* 0/75 */;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #4d4d4d;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+input,button,label,span{
+    display: inline-block;
+    outline: none;
+    border: none;
+}

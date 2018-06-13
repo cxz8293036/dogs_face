@@ -1,0 +1,5 @@
+.getCode {
+  color: #ff392a;
+  border: 1px solid #ff392a;
+  background: white;
+}

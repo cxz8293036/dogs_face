@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  width: 100%;
+  background: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+header img {
+  width: 100%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 20%;
+}
+.main input {
+  border: none;
+  width: 80%;
+  height: 40px;
+}
+.main .imgLb {
+  text-align: center;
+}
+.main .imgLb img {
+  width: 50%;
+  vertical-align: bottom;
+}
+.main .inpLen {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ff392a;
+  background: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.main .login {
+  width: 100%;
+  height: 100%;
+  background: #ff392a;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.main .tips {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.main .tips a {
+  color: #4d4d4d;
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #4d4d4d;
+}
+footer .other {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+footer .other img {
+  width: 50px;
+  height: 50px;
+}
